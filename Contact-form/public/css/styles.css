@@ -1,0 +1,85 @@
+/* define variables for the primary colors */
+/*define variables for fonts*/
+body {
+  background-color: #d98d63;
+  background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  font-family: "Bree Serif", serif;
+}
+
+.container {
+  border-radius: 15px;
+  background-color: white;
+  margin-bottom: 200px;
+  margin-top: 150px;
+  width: 600px;
+  height: 550px;
+}
+.container .header {
+  font-size: 30px;
+  color: #96532c;
+  padding-top: 60px;
+  padding-left: 22px;
+}
+.container .contactForm .form-group {
+  margin-bottom: 0;
+  position: relative;
+}
+.container .contactForm input:focus {
+  border: 1px solid #999;
+  outline: none !important;
+}
+.container .contactForm textarea {
+  height: 150px !important;
+}
+.container .usr_name {
+  font-size: 15px;
+  color: #96532c;
+  padding-top: 20px;
+}
+.container .usr_email {
+  font-size: 15px;
+  color: #96532c;
+}
+.container .usr_message {
+  font-size: 15px;
+  color: #96532c;
+}
+.container .btn {
+  background-color: #96532c;
+  color: #ffcb9e;
+  margin-left: 82%;
+}
+.container .success .success-btn {
+  padding-left: 22px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffcb9e;
+  font-size: 20px;
+}
+.container .success .success-header {
+  font-size: 40px;
+  color: #96532c;
+  padding-top: 200px;
+  padding-left: 22px;
+}
+.container .success .success-message {
+  padding-left: 22px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #96532c;
+  font-size: 20px;
+}
+.container .success .btnMain {
+  text-align: right;
+  padding-right: 30px;
+}
+.container .success .btnMain a {
+  color: #96532c;
+}
+
+.footer {
+  text-align: center;
+  display: block;
+  color: #96532c;
+}
+
+/*# sourceMappingURL=styles.css.map */

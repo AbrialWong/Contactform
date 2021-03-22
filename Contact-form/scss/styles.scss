@@ -1,0 +1,99 @@
+/* define variables for the primary colors */
+$bright_brown: #d98d63; // brown
+$light_brown: #ffcb9e; // light brown
+$dark_brown: #96532c; // dark brown
+
+/*define variables for fonts*/
+$source_sans_pro: "Source Sans Pro", sans-serif;
+$bree_serif: "Bree Serif", serif;
+
+body {
+  background-color: #d98d63;
+  background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  font-family: $bree_serif;
+}
+
+.container {
+  border-radius: 15px;
+  background-color: white;
+  margin-bottom: 200px;
+  margin-top: 150px;
+  width: 600px;
+  height: 550px;
+  .header {
+    font-size: 30px;
+    color: $dark_brown;
+    padding-top: 60px;
+    padding-left: 22px;
+    
+  }
+  .contactForm{
+    .form-group{
+      margin-bottom: 0;
+      position: relative;
+    }
+    input:focus{
+
+      border: 1px solid #999;
+      outline: none !important;
+    }
+    textarea{
+      height: 150px !important;
+    }
+  }
+  .usr_name {
+    font-size: 15px;
+    color: $dark_brown;
+    padding-top: 20px;
+    
+  }
+  .usr_email {
+    font-size: 15px;
+    color: $dark_brown;
+  }
+  .usr_message {
+    font-size: 15px;
+    color: $dark_brown;
+  }
+  .btn{
+      background-color:$dark_brown;
+      color: $light_brown;
+      margin-left:82%;
+  }
+
+  .success{
+    .success-btn{
+      padding-left: 22px;
+      font-family:$source_sans_pro;
+      color:$light_brown;
+      font-size:20px;
+    }
+    .success-header{
+      font-size: 40px;
+    color: $dark_brown;
+    padding-top: 200px;
+    padding-left: 22px;
+    }
+    .success-message{
+      padding-left: 22px;
+      font-family:$source_sans_pro;
+      color:$dark_brown;
+      font-size:20px;
+    }
+     .btnMain{
+       text-align: right;
+       padding-right:30px; 
+       a{
+         color:$dark_brown;
+       }
+     }
+  }
+  
+}
+
+.footer {
+  text-align: center;
+  display: block;
+  color: $dark_brown;
+}

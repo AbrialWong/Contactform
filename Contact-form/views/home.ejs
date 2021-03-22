@@ -1,0 +1,25 @@
+<%- include("partials/header"); -%>
+<div class="header">Contact Me</div>
+<div class="errors">
+    </div>
+<form action="/" method="post" class="contactForm"> 
+  <div class="form-group mx-sm-4 mb-2">
+    <label for="name" class="input-name">Name:</label>
+    <input type="text" name="txtName" class="form-control name" id="name" placeholder="Type your name here." required>
+  </div>
+
+<div class="form-group mx-sm-4 mb-2 ">
+<label for="email" class="input-email">Email:</label>
+<input type="text" name="txtEmail" class="form-control email" id="email" placeholder="Type your email here." required>
+</div>
+
+<div class="form-group mx-sm-4 mb-2">
+<label for="message" class="input-message">Message:</label>
+<textarea name ="txtMessage" class="message form-control"  id="message" placeholder="Type your message here." required></textarea>
+</div>
+
+<div class="contact_submit">
+<button type="submit" class="btn btn-default">Submit</button>
+</div>
+</form>
+<%- include("partials/footer"); -%>
