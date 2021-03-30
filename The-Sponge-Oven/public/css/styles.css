@@ -1,0 +1,36 @@
+/* define variables for the primary colors */
+/*define variables for fonts*/
+.navbar {
+  background-color: #9E9D89;
+  /*---Toggler--*/
+}
+.navbar .navbar-toggler {
+  width: 47px;
+  height: 25px;
+}
+.navbar .navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #FCF9F9;
+  margin-bottom: 5px;
+}
+.navbar .input-group {
+  width: 15%;
+}
+.navbar .input-group .form-control {
+  font-size: 15px;
+  height: 20%;
+}
+.navbar .input-group .account {
+  background-color: #9E9D89;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navbar .input-group .cart {
+  background-color: #9E9D89;
+  border: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
