@@ -23,47 +23,54 @@
 </head>
 <body>
 
-<!-- A dark greyish green horizontal navbar that becomes vertical on screen -->
-<nav class="navbar">
-
-  <!--Toggle Button-->
+  <div class="navbar">
+    
+    <!--Toggle Button-->
   <button class="navbar-toggler" type="button"  data-target="#navbarTogglerDemo02"
-    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="line"></span> 
-    <span class="line"></span> 
-    <span class="line" style="margin-bottom: 0;"></span>
-  </button>
+  aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="line"></span> 
+  <span class="line"></span> 
+  <span class="line" style="margin-bottom: 0;"></span>
+</button>
 
-  <div class="input-group">
 
-    <!--Search Bar-->
-    <nav class="navbar navbar-expand-sm">
-      <form class="form-inline" action="/action_page.php">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-        <button class="btn btn-success" type="submit">Search</button>
-      </form>
-    </nav>
-      
-    <!--Login / Register-->
-    <button class="btn btn-secondary account" type="button">
-    <i class="fa fa-user"></i>
-    </button>
+  <ul class="nav justify-content-end">
+    <li class="nav-item">
+     <!--Search Bar-->
+     <form class="form-inline" action="/action_page.php">
+      <input class="form-control mr-sm-2 nav-link" type="text" placeholder="Search">
+      <button class="btn btn-secondary account nav-link" type="button">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
 
-    <!--Shopping cart-->
-    <button class="btn btn-secondary cart" type="button">
-      <i class="fa fa-shopping-cart"></i>
-    </button>
+    </li>
+    <li class="nav-item">
+      <!--Login / Register-->
+     <button class="btn btn-secondary account nav-link dropdown-toggle navbar-toggler" type="button" data-toggle="dropdown" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation"></button>
+      <i class="fa fa-user"></i>
+      </button>
+      <div class="dropdown" id="navbarTogglerDemo02">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+    <li class="nav-item">
+      <!--Shopping cart-->
+       <button class="btn btn-secondary cart nav-link" type="button">
+        <i class="fa fa-shopping-cart"></i>
+      </button> 
 
+    </li>
+    
+  </ul>
 </div>
-
-
-
-</nav>
 
   <!--Bootstrap Javascript-->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
